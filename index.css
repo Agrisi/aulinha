@@ -1,0 +1,44 @@
+
+
+*{ padding: 0%;
+    margin: 0ch;
+    box-sizing: border-box;
+    
+}
+
+nav {
+    background-color: rgb(20, 172, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+    
+}
+
+nav ul {
+    text-align: center;
+    color:rgb(0, 0, 0);
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    margin: 20px;
+}
+
+nav ul li{
+   font-size: 14px;
+   color: black;
+   font-weight: bold;
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+   align-items: center ;
+}
+
+nav ul li:hover {
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}
